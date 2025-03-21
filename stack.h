@@ -6,6 +6,7 @@ typedef address Stack;
 
 void CreateStack (Stack *S);
 int IsEmpty(Stack S);
+int IsStackFull (Stack S);
 void Push (Stack *S, infotype X);
 void Pop (Stack *S, infotype *X);
 
